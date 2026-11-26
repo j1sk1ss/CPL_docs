@@ -3,6 +3,16 @@ Logs for the first and second versions are quite short because I do not remember
 
 ----------------------------------------
 
+### Float logic and bugfixes
+<div class="change-date">Date: 2026-11-24</div>
+The compiler now understands float values! Just try it with `f64` and `f32`:
+
+```cpl
+start() {
+    printf(ref "%lf\n", 3.0 + 4.0); :/ 7.00000 /:
+}
+```
+
 ### Bug fixes and unsign operations
 <div class="change-date">Date: 2026-11-15</div>
 A big list of bug fixes with unsigned values:
